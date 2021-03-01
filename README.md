@@ -8,12 +8,14 @@
  5. Display experimental results on the graphs
  
 <div align="center">
-  <img src="https://miro.medium.com/max/1654/0*ED8zSNIy675lVwJR" width="400">
-  <img src="https://cdn-images-1.medium.com/max/1600/1*cufAO77aeSWdShs3ba5ndg.jpeg" width="350">
+  <img src="https://miro.medium.com/max/1654/0*ED8zSNIy675lVwJR" width="700">
+  
 </div>
 
 ## Introduction
 * [Transfer Learning](https://keras.io/guides/transfer_learning/) : Transfer learning is a machine learning technique where a model trained on one task is re-purposed on a second related task. We can think of transfeering to learnt features to the new model. In this way, we can utilize some pre-trained model which trained by billions of image which we may not be able to train ourselves. In this project, we use **VGG19 Pre-trained Model** which was trained by ImageNet dataset (1000 classes). Then, we change last three layers for our study, in order to classify 10 categories, not 1000. The top-1 and top-5 accuracy refers to the model's performance on the ImageNet validation dataset.
+<img src="https://cdn-images-1.medium.com/max/1600/1*cufAO77aeSWdShs3ba5ndg.jpeg" width="650">
+
 ---------------------------------------------------------------------------------------------
 | Model       | Size          |  Top 1 Accuracy| Top 5 Accuracy	   |  Parameters     | Depth |
 |-------------|-------------  |----------------|-------------------|-----------------|-------|
@@ -47,7 +49,7 @@
  
 ## Usage
 * Download this repository and run CIFAR10-TransferLearning.
-* Note: Since we download dataset and model via Keras (internet connection is necessary), we do not need to download anything explixitly. We can run file simply. 
+* **Note:** Since we download dataset and model via Keras (internet connection is necessary), we do not need to download anything explixitly. We can run file simply. 
 
 
 ## Experiment Results
