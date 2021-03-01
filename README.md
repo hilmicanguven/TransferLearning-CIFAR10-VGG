@@ -24,8 +24,7 @@
 
 * [CIFAR-10 DATASET](https://www.cs.toronto.edu/~kriz/cifar.html) : The CIFAR-10 and CIFAR-100 are labeled subsets of the 80 million tiny images dataset. They were collected by Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton. The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. CIFAR-10 includes these classes and some example images.
 
-![img1] CIFAR10-Images.PNG
-
+![img1](CIFAR10-Images.PNG)
 
 ## Requirements & Dependencies
 * We build our algorithm using "Anaconda Environment" on Jupyter Notebook.
@@ -47,8 +46,8 @@
 -----------------------------
  
 ## Usage
-* pp
-* pp
+* Download this repository and run CIFAR10-TransferLearning.
+* Note: Since we download dataset and model via Keras (internet connection is necessary), we do not need to download anything explixitly. We can run file simply. 
 
 
 ## Experiment Results
