@@ -1,11 +1,12 @@
 # TransferLearning-CIFAR10-VGG
 
- In this project, we use pre-trained model (consists VGG architecture and ImageNet weights) in order to recognize the various objects. We use Keras library and these steps have been done
+ In this project, we use pre-trained model (VGG architecture and ImageNet weights) in order to recognize the various objects. We use Keras library and these steps have been done
  1. Download dataset automatically using Keras library (if you wish, you can manually download)
  2. Download VGG model and observe architecture(layers)
- 3. Modify VGG to our study (change last layers to our purposes)
- 4. Train and Save our new Model
+ 3. Modify VGG19 to our study (change last layers to our purposes)
+ 4. Train and save our new Model
  5. Display experimental results on the graphs
+ 6. Predict new image with trained model
  
 <div align="center">
   <img src="https://miro.medium.com/max/1654/0*ED8zSNIy675lVwJR" width="700">
@@ -14,6 +15,7 @@
 
 ## Introduction
 * [Transfer Learning](https://keras.io/guides/transfer_learning/) : Transfer learning is a machine learning technique where a model trained on one task is re-purposed on a second related task. We can think of transfeering to learnt features to the new model. In this way, we can utilize some pre-trained model which trained by billions of image which we may not be able to train ourselves. In this project, we use **VGG19 Pre-trained Model** which was trained by ImageNet dataset (1000 classes). Then, we change last three layers for our study, in order to classify 10 categories, not 1000. The top-1 and top-5 accuracy refers to the model's performance on the ImageNet validation dataset.
+Tranfer Learning has several advantages, mainly **Less training data** , **Models generalize better** and **Makes deep learning more accessible** . [This website](https://missinglink.ai/guides/neural-network-concepts/transfer-learning-overview/) explain clearly and I recommend you to have a look at.
 <img src="https://cdn-images-1.medium.com/max/1600/1*cufAO77aeSWdShs3ba5ndg.jpeg" width="650">
 
 ---------------------------------------------------------------------------------------------
@@ -48,7 +50,7 @@
 -----------------------------
  
 ## Usage
-* Download this repository and run CIFAR10-TransferLearning.
+* Download this repository and run CIFAR10-TransferLearning.ipynb (This file contains everything you will need and it is explained cell by cell)
 * **Note:** Since we download dataset and model via Keras (internet connection is necessary), we do not need to download anything explixitly. We can run file simply. 
 
 
@@ -57,3 +59,6 @@ Result of the experiments as shown below. Notice that, there are hyper-parameter
 
 ![res1](accuracy-graph.png) 
 ![res2](loss-graph.png)
+
+## Example Prediction
+![pred1](prediction.PNG) 
