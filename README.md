@@ -1,4 +1,4 @@
-# TransferLearning-CIFAR10-VGG
+# Transfer Learning - VGG19 Model - CIFAR10 Dataset
 
  In this project, we use pre-trained model (VGG architecture and ImageNet weights) in order to recognize the various objects. We use Keras library and these steps have been done
  1. Download dataset automatically using Keras library (if you wish, you can manually download)
